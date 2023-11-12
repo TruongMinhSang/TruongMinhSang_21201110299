@@ -58,13 +58,13 @@
                         @if (Session["idUser"] != null)
                         {
                             <a href="~/Cart/Index" class="small btn btn-primary px-4 py-2 rounded-0"><span class="icon-users"></span>Giỏ Hàng</a>
-                            <a href="~/Admin/Home" class="small mr-3"><span class="icon-unlock-alt"></span>Trang quản trị</a>
-                            <a href="~/Home/Logout" class="small mr-3"><span class="icon-unlock-alt"></span>Logout</a>
+                            <a href="~/Admin/Product" class="small mr-3"><span class="icon-unlock-alt"></span>Trang Quản Trị</a>
+                            <a href="~/Home/Logout" class="small mr-3"><span class="icon-unlock-alt"></span>Đăng Xuất</a>
                         }
                         else
                         {
-                            <a href="~/Home/Login" class="small mr-3"><span class="icon-unlock-alt"></span> Log In</a>
-                            <a href="~/Home/Register" class="small btn btn-primary px-4 py-2 rounded-0"><span class="icon-users"></span> Register</a>
+                            <a href="~/Home/Login" class="small mr-3"><span class="icon-unlock-alt"></span> Đăng Nhập</a>
+                            <a href="~/Home/Register" class="small btn btn-primary px-4 py-2 rounded-0"><span class="icon-users"></span> Đăng Ký</a>
                         }
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                                     <a href="~/" class="nav-link text-left">Trang chủ</a>
                                 </li>
                                 <li class="has-children">
-                                    <a href="about.html" class="nav-link text-left">Thương Hiệu</a>
+                                    <a href="about.html" class="nav-link text-left">Danh Mục</a>
                                     <ul class="dropdown">
                                         @using (var db = new WebsitebanhangEntities())
                                         {
@@ -101,7 +101,7 @@
 
                                 </li>
                                 <li>
-                                    <a href="admissions.html" class="nav-link text-left">Danh Mục</a>
+                                    <a href="admissions.html" class="nav-link text-left">Thương Hiệu</a>
                                 </li>
                                 <li>
                                     <a href="courses.html" class="nav-link text-left">Tài khoản</a>
@@ -183,7 +183,7 @@
                             <p>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                 Copyright &copy;
-                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="Thương Hiệue"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>
                         </div>
